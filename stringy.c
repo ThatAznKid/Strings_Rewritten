@@ -15,7 +15,7 @@ int mystrlen (char *s) {
 
 int main () {
 
-  char s1 = "Hello!\0";
+  char *s1 = "Hello!\0";
   printf ("Length of s1: %d\n:" , mystrlen (s1));
   return 0;
 
