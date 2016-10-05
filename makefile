@@ -1,6 +1,6 @@
 clean:
 	rm *~
 
-run: stringy.c
-	gcc stringy.c -o stringy
+run: stringy.cpp
+	gcc stringy.cpp -o stringy
 	./stringy
